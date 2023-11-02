@@ -2,6 +2,67 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav a.selected {
-  font-size: 1.5rem;
+nav {
+  background-color: rgb(176, 213, 207);
+  transition: all 1s;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem;
+  margin: 1px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  color: grey;
+  size: 2rem;
+  text-shadow: 1px 1px rgb(207, 177, 5);
+}
+
+#splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(207, 177, 5);
+  text-align: center;
+  text-shadow: 1rem 1rem 5px black;
+  height: calc(100vh - 6rem);
+  background-image: url(mountains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: calc(100vh - 25rem);
+}
+
+#about {
+  background-color: goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+  border: solid 2px gray;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: calc(100vh - 30rem);
+  border: solid 2px black;
+}
+
+.project_1 > section {
+  border: solid 2px black;
+  background-color: thistle;
 }
