@@ -54,7 +54,7 @@ nav {
   align-items: center;
 }
 
-.image2 {
+.image {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -62,7 +62,57 @@ nav {
   border: solid 2px black;
 }
 
-.project_1 > section {
+.project > section {
   border: solid 2px black;
   background-color: thistle;
+}
+
+button.project1 {
+  width: 50ch;
+  height: 2rem;
+  background: thistle;
+  color: rgb(118, 86, 7);
+  font-style: bold;
+  text-transform: uppercase;
+  border: 0;
+  align-content: flex-end;
+  justify-content: center;
+}
+button.project1:hover {
+  cursor: pointer;
+  background: goldenrod;
+}
+
+button.project2 {
+  width: 50ch;
+  height: 2rem;
+  background: lightseagreen;
+  color: thistle;
+  font-style: bold;
+  text-transform: uppercase;
+  border: 0;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+button.project2:hover {
+  cursor: pointer;
+  background: lightsalmon;
+}
+
+button.project3 {
+  width: 50ch;
+  height: 2rem;
+  background: palevioletred;
+  color: darkolivegreen;
+  font-style: bold;
+  text-transform: uppercase;
+  border: 0;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+button.project3:hover {
+  cursor: pointer;
+  background: turquoise;
 }
